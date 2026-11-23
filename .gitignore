@@ -1,0 +1,44 @@
+# Visual Studio / .NET
+*.user
+*.suo
+*.cache
+*.dotcover
+*.nupkg
+*.snupkg
+
+# Build output
+bin/
+obj/
+publish/
+out/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+
+# Rider / JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# NuGet
+*.nupkg
+.nuget/
+
+# App credentials (do NOT commit)
+config.json
+*.env
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Temporary files
+*.tmp
+*.log
